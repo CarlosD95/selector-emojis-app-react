@@ -1,0 +1,68 @@
+.interfaz {
+    background-color:rgb(19, 14, 57);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    padding: 10px;
+    height: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.inputRef{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
+.boton-mostrar{
+    background-color:rgb(19, 14, 57);
+    border: none;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: block;
+}
+
+.input-search{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    display: flex;
+    background-color: darkslategray;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.boton-emoji{
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.contenedor-botones{
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
